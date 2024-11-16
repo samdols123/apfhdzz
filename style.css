@@ -1,0 +1,40 @@
+a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+
+
+h1 {
+    font-size: 60px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    /* border는 상하좌우 가능함 */
+}
+
+ol {
+    border-right: 1px solid gray;
+    margin: 0;
+    width: 100px;
+    padding-left: 380px;
+    padding-top: 25px;
+}
+
+body {
+    margin: 0px;
+}
+
+.bae {
+    
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    
+    
+}
+
+h2{
+    margin: 25px;
+}

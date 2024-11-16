@@ -12,6 +12,8 @@
 <br>href는 링크참조(하이퍼텍스트레퍼런스) a는 앵커 닻 
 이어지는 target="_blank"는 새탭 title=""이거는 링크설명커서올리기</body></html>
 <br>input type="" 체크박스만들기
+<P><iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" title="WEB1 부록 - 코드의 힘 : 동영상 삽입" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</P>
 <p><div id="disqus_thread"></div>
     <script>
         /**
@@ -32,5 +34,38 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </p>
+
+    
+    <!doctype html>
+<html>
+	<style>
+		h1{ /* h1은 화면전체를 쓰고 a는 자기콘텐츠만큼만쓴다 */
+			border-width: 10px; 
+			/* 픽셀은 두께 */
+			border-color: red;
+			border-style: solid;
+			/* 이거를 border: 5px solid red; 로 쓸수있다*/
+			/* display: inline; */
+			/* 자기 범위만큼만 쓰는거 화면끝까지 안감 */
+			padding: 20px;
+			/* 컨텐트와 테두리간 간격 */
+			margin: 20px;
+			/* 끝을 달리는 테두리 */
+			width: 200px;
+		}
+		h2{
+			border-width: 5px;
+			border-color: blue;
+			border-style: solid;
+			display: block; /* 사실상 블럭이 기본값 */
+			/* 화면끝까지 이어짐 */
+		}
+		
+	</style>
+	<body>
+		<h1>Hello world</h1>
+		<h2>뭘봐</h2>
+	</body>
+</html>
 
     
